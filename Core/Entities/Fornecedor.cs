@@ -8,6 +8,7 @@ namespace Core.Entities
 {
     public class Fornecedor
     {
+        public int Id { get; set; }
         public string Nome { get; set; }
         public int Cnpj { get; set; }
         public string Endereco { get; set; }
